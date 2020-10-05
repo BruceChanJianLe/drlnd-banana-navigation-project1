@@ -45,6 +45,7 @@ Observation:
 It seems that the model learns slower after 600 episodes. Some parameter tuning is needed.
 
 ### Second Implementation
+
 **Hyper-Parameters for First Implementation**  
 - Replay Buffer Size: 100000
 - Batch Size: 128
@@ -75,5 +76,21 @@ Environment solved in 828 episodes!	Average Score: 13.00
 Observation:  
 The model starts learning slower that the previous implementation, however, the learning process is steadier than before. It slows down significantly at around 600 episodes but it is still learning better than the previous implementation. Prehaps can add more hidden layers.
 
+### Third Implementation
 
+**Hyper-Parameters for First Implementation**  
+- Replay Buffer Size: 100000
+- Batch Size: 128
+- Gamma (discount factor): 0.999
+- Tau (soft update): 0.005
+- Learning Rate: 0.0005
+- Update Network: 16
 
+The code can be found in `script_3`.
+
+The third implementation has 4 hidden layer with 256 neurons fully connected with ReLu as their activation function.
+
+## Future works
+
+- Double DQN
+- Dueling DQN

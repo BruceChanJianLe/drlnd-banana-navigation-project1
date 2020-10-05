@@ -17,5 +17,12 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 
 The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
 
-## Project Structure
+## Getting Started
+
+Please make sure `python3.6` is installed in your conda environment. Noted that `Unity` has to be installed as well. And run the install script.  
+
+```
+source ./install.sh
+```
+
 
