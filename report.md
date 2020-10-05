@@ -74,7 +74,7 @@ Environment solved in 828 episodes!	Average Score: 13.00
 ```
 
 Observation:  
-The model starts learning slower that the previous implementation, however, the learning process is steadier than before. It slows down significantly at around 600 episodes but it is still learning better than the previous implementation. Prehaps can add more hidden layers.
+The model starts learning slower that the previous implementation, however, the learning process is steadier than before. It slows down significantly at around 600 episodes but it is still learning better than the previous implementation. Perhaps can add more hidden layers.
 
 ### Third Implementation
 
@@ -92,5 +92,6 @@ The third implementation has 4 hidden layer with 256 neurons fully connected wit
 
 ## Future works
 
+- Adding more hidden layers
 - Double DQN
 - Dueling DQN
