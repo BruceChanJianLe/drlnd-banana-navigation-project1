@@ -73,5 +73,7 @@ Environment solved in 828 episodes!	Average Score: 13.00
 ```
 
 Observation:  
-The model starts learning slower that the previous implementation, however, the learning process is steadier than before. It slows down significantly at around 600 episodes but it is still learning better than the previous implementation.
+The model starts learning slower that the previous implementation, however, the learning process is steadier than before. It slows down significantly at around 600 episodes but it is still learning better than the previous implementation. Prehaps can add more hidden layers.
+
+
 
