@@ -25,4 +25,7 @@ Please make sure `python3.6` is installed in your conda environment. Noted that 
 source ./install.sh
 ```
 
+## Running
+
+Please choose your favourite `script` to run. The results are in `report.md`. All the scripts are jupyter notebooks, you will be able to run them with the command `jupyter notebook` and connecting to the server.  
 
