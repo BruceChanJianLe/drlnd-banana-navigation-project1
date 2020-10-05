@@ -20,7 +20,7 @@ The code can be found in `script_1`.
 
 The first implementation is a Deep Q-Learning model with 2 hidden layers. The first hidden layer has 64 neurons with ReLu as activation function. The second hidden layer has also 64 neurons with ReLu as activation function.
 
-The training Results:
+The training Results:  
 ```
 Episode 100	Average Score: 6.63
 Episode 200	Average Score: 8.17
@@ -41,7 +41,7 @@ Episode 1533	Average Score: 13.00
 Environment solved in 1433 episodes!	Average Score: 13.00)
 ```
 
-Observation:
+Observation:  
 It seems that the model learns slower after 600 episodes. Some parameter tuning is needed.
 
 ### Second Implementation
@@ -71,3 +71,7 @@ Episode 900	Average Score: 12.93
 Episode 928	Average Score: 13.00
 Environment solved in 828 episodes!	Average Score: 13.00
 ```
+
+Observation:  
+The model starts learning slower that the previous implementation, however, the learning process is steadier than before. It slows down significantly at around 600 episodes but it is still learning better than the previous implementation.
+
